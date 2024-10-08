@@ -24,6 +24,3 @@ Dieses Projekt ist eine einfache To-Do-Liste, die in JavaScript entwickelt wurde
 - **Aufgabe löschen**: Klicke auf die Schaltfläche "Löschen" neben der jeweiligen Aufgabe.
 - **Aufgaben suchen**: Gib einen Suchbegriff in das Suchfeld ein, um die Liste zu filtern.
 - **Aufgaben sortieren**: Wähle eine Sortieroption aus dem Dropdown-Menü aus, um die Aufgaben zu sortieren.
-
-
-Wenn du weitere Anpassungen oder spezielle Abschnitte hinzufügen möchtest, lass es mich wissen!

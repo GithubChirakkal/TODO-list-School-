@@ -1,0 +1,152 @@
+
+
+body {
+  background-color: #F6F5F2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.aussencontainer {
+  background-color: white;
+  width: 450px;
+  height: auto; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 14px;
+}
+
+.innencontainer {
+  background-color: #F0EBE3;
+  width: 415px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 20px;
+  height: auto;
+}
+
+
+#todoerstellen {
+  cursor: pointer;
+  background-color: #FFEFEF;
+  height: 50px;
+  width: 350px;
+  margin-left: 30px;
+
+}
+
+#todoerstellen:hover {
+  cursor: pointer;
+  background-color: #FFEFEF;
+  height: 50px;
+  width: 350px;
+  margin-left: 30px;
+color:black;
+}
+
+#hinzufuegen_icon {
+  width: auto;
+  height: 40px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+#todoerstellentext {
+  font-size: 18px;
+  margin-left: 10px;
+  padding-top: 14px;
+}
+
+#suchleiste {
+  background-color: #FFEFEF;
+  height: 50px;
+  width: 350px;
+  margin-left: 30px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+}
+
+#suchleiste input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background: none;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+#suchleiste img {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#ueberschrift {
+  font-size: 38px;
+  margin-left: 65px;
+  margin-top: 35px;
+}
+
+#tasks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 20px;
+}
+
+#tasks div {
+ 
+  background-color: #F3D0D7;
+
+  padding: 5px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 4px;
+}
+
+#tasks div .options {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tasks div .options i {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.progress {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.progress-bar[aria-valuenow="100"] {
+  background-color: #B8FFC7 !important;
+}
+
+.progress-bar[aria-valuenow="0"] {
+  background-color: #ffffff !important;
+}
+
+#msg {
+  color: red;
+}
